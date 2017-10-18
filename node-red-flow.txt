@@ -1,0 +1,33 @@
+[
+    {
+        "id": "b65e0529.2fe288",
+        "type": "mqtt out",
+        "z": "63d96130.4af6",
+        "name": "",
+        "topic": "temp1_a",
+        "qos": "2",
+        "retain": "",
+        "broker": "7041eee5.9b4cc",
+        "x": 701,
+        "y": 99,
+        "wires": []
+    },
+    {
+        "id": "7041eee5.9b4cc",
+        "type": "mqtt-broker",
+        "z": "",
+        "broker": "digitall.io",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": true,
+        "keepalive": "60",
+        "cleansession": true,
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": ""
+    }
+]

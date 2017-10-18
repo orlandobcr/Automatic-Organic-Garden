@@ -1,7 +1,6 @@
-# Automatic irrigation controller
+# Automatic organic garden
 
  A solar powered organic garden using an Arduino controller for sensing the soil humudity, air temperature, air humidity, water ph, light intensity and rain.
- It uses an ethernet shield to conect to internet and store the collected data on the cloud (ThinkSpeak). 
- It analyzes the data to generate SMS and mail alerts about the state of the garden.
- It controls a water pump 
+ The arduino uses an ethernet shield to create a bi-directional comunication using the MQTT protocol with a rapsberry pi (broker). The Raspbery-pi analizes and stores the data in a cloud-service (ThingSpeak).
+ The Rasperry-pi also controls two electro-valvules for the irrigation process.
  
